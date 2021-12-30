@@ -19,7 +19,9 @@ function message1() {
 }
 
 function message2() {
-    return "TEMP2\n";
+    let letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    let randomLetter = letters[Math.floor(Math.random() * letters.length)];
+    return `The letter of the day is ${randomLetter}.\n`;
 }
 
 function message3() {
