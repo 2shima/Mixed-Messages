@@ -25,6 +25,9 @@ function message2() {
 }
 
 function message3() {
-    return "TEMP3\n";
+    let lucky1 = Math.ceil(Math.random() * 30);
+    let lucky2 = Math.ceil(Math.random() * 30) + 20;
+    let lucky3 = Math.ceil(Math.random() * 30) + 50;
+    return `Your lucky numbers are ${lucky1}, ${lucky2}, and ${lucky3}`;
 }
 generateMessage();
